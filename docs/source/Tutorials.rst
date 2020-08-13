@@ -7,6 +7,7 @@ Tutorials
 
    KeyConcepts
    FactorGraphsAndGTSAM
+   TutorialCreateNewFactor
    CppExamples
    PythonExamples
    MatlabExamples

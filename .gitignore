@@ -23,4 +23,3 @@ cython/gtsam_wrapper.pxd
 CMakeLists.txt.user*
 xcode/
 docs/build
-docs/source/_static
