@@ -20,7 +20,7 @@ import os
 read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 
 if read_the_docs_build:
-    subprocess.call('cd ..; mkdir -p build/html/doxygen/; doxygen', shell=True)
+    subprocess.call('cd ..; mkdir -p build/html/doxygen/; doxygen; mkdir _static || true; cp -r build/html/doxygen source/_static/', shell=True)
 
 # -- Project information -----------------------------------------------------
 project = u'GTSAM'

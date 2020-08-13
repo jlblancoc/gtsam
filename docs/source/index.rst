@@ -27,12 +27,12 @@ many impressive autonomous systems, in both academia and industry.
 
 
 .. toctree::
-   :caption: Programming
+   :caption: Contents
    :hidden:
 
    Tutorials
    Bindings
-   C++ API <doxygen/html/modules.html#http://>
+   C++ API <_static/doxygen/html/modules.html#http://>
 
 .. (JLBC note: Do not remove the #http:// above, it's the only way I found to allow that link to be included in the TOC).
 
@@ -41,5 +41,3 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
